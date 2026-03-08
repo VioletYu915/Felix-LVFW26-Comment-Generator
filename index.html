@@ -115,7 +115,7 @@
         
         <button id="generateBtn">✨ 点击生成并复制 (Click here) ✨</button>
         
-        <div id="copyFeedback">已复制到剪贴板 ✅  Copied to clipboard ✅</div>
+        <div id="copyFeedback">已复制到剪贴板 ✅ Copied to clipboard</div>
     </div>
 
     <script>
@@ -10152,7 +10152,7 @@
             // 使用 Clipboard API 复制到剪贴板
             navigator.clipboard.writeText(randomComment).then(() => {
                 // 复制成功后，显示提示信息
-                copyFeedback.textContent = '已复制到剪贴板 ✅  Copied to clipboard ✅';
+                copyFeedback.textContent = '已复制到剪贴板 ✅ Copied to clipboard';
                 copyFeedback.style.color = '#28a745';
                 copyFeedback.classList.add('show');
                 
